@@ -12,7 +12,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.background-image {
+    position: fixed;
+    bottom: 0;
+    right: -2%;
+    z-index: -99;
+}
 
+.background-image img {
+    z-index: -99;
+}
 
 input {}
 
@@ -21,15 +30,9 @@ input {}
     max-width: 1440px;
     display: flex;
     align-items: center;
-
     margin: 0 auto;
-    border: 1px solid white;
     padding: 10px;
-    margin-bottom: 20px;
-
-
-
-
+    margin-bottom: 10px;
 }
 
 .firstContainer .container-exam1,
