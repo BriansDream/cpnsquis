@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     background-color: black;
     color: white;
-    font-family: 'Poppins', sans-serif;
+
 }
 
 .background-image {
@@ -21,9 +22,65 @@ body {
 
 .background-image img {
     z-index: -99;
+    width: 320px;
+    height: 408px;
 }
 
-input {}
+/* Last background */
+
+/* Start Pop up */
+.container-popup {
+    background-color: rgb(100, 100, 100);
+    opacity: 0.9;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+
+.form-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(204, 204, 204, 0.2);
+    z-index: 200;
+    margin: 0 auto;
+    top: 25%;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.formData {
+    display: flex;
+    flex-direction: column;
+}
+
+.username,
+.date,
+.btnForm {
+    margin: 5px;
+    font-size: 1.3em;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+}
+
+.btnForm {
+    border-radius: 30px;
+    border: none;
+    color: black;
+    background-color: greenyellow;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/* Last Popup */
 
 .firstContainer,
 .secondContainer {
@@ -94,6 +151,11 @@ a {
 
 /* Start Table */
 
+.container-table .title-table {
+    color: white;
+}
+
+
 table {
 
     box-shadow: 0 4px 8px 0 rgba(223, 223, 223, 0.2);
@@ -101,7 +163,10 @@ table {
     width: 100%;
     margin: 0 auto;
     margin-top: 20px;
+    text-align: center;
 }
+
+
 
 table thead th {
     padding: 10px;
