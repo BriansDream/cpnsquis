@@ -1,0 +1,22 @@
+{
+  "name": "quiscpns",
+  "version": "1.0.0",
+  "description": "Quis web app with good folder layout",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BriansDream/quiscpns.git"
+  },
+  "keywords": [
+    "quisapp"
+  ],
+  "author": "briansdream",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BriansDream/quiscpns/issues"
+  },
+  "homepage": "https://github.com/BriansDream/quiscpns#readme"
+}
