@@ -29,7 +29,7 @@ body {
 .fifth-exam,
 .six-exam {
     padding: 20px;
-    border: 1px solid white;
+
 }
 
 input {
@@ -62,7 +62,6 @@ table {
     text-align: center;
     font-size: 1.3em;
     padding: 10px;
-
 
 }
 
