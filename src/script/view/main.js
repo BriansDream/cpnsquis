@@ -107,6 +107,7 @@ const main = () => {
                   
                   putData(result);
                   renderHistoryData();
+                  location.reload();
               
                
         

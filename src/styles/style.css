@@ -85,5 +85,23 @@ tbody tr td {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    quis-item {}
+    thead th {
+        font-size: 1em;
+        padding: 0;
+    }
+
+    table,
+    td {
+        padding: 0;
+        font-size: 1em;
+    }
+
+    .first-exam,
+    .second-exam,
+    .third-exam,
+    .fourth-exam,
+    .fifth-exam,
+    .six-exam {
+        padding: 3px;
+    }
 }

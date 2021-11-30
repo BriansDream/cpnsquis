@@ -25,7 +25,7 @@ class BackgroundImage extends HTMLElement {
 
         </style>
 
-        <img src="../../src/asset/Profile-Pict.png"
+        <img src=".././src/asset/Profile-Pict.png"
          title="Andesta-Febrianto-Nainggolan">`;
     }
 
