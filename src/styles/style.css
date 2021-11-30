@@ -76,6 +76,17 @@ tbody tr td {
 
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 209, 4);
+    color: black;
+    font-weight: bolder;
+}
 
 /* <img src=".././asset/Profile-Pict.png" alt="Andesta Febrianto Nainggolan" title="Andesta Febrianto Nainggolan"> */
 
