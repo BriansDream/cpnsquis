@@ -1,4 +1,4 @@
-
+import '../../asset/Profile-Pict.png'
 class BackgroundImage extends HTMLElement {
     
     // Konfigurasi awal saat pertama kali elemen dibuat
@@ -25,7 +25,7 @@ class BackgroundImage extends HTMLElement {
 
         </style>
 
-        <img src=".././src/asset/Profile-Pict.png"
+        <img src="../../asset/Profile-Pict.png"
          title="Andesta-Febrianto-Nainggolan">`;
     }
 
